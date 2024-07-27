@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="user-info">
+                <div class="main">
+                    <center>
+                        <img src="pro.jpg" id="profile" alt="profile image" style="height: 130px;width: 130px; border-radius: 16px; 
+                            transition: color 3s; box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
+                            transition: border-color 0.3s, box-shadow 0.3s; border: 2px solid transparent;"
+                            class="profile" />
+                        <br>
+                    </center>
+                    <center>
+                        <h2>Avinash T</h2>
+                        <h2>Full Stack Developer</h2>
+                        <br>
+                    </center>
+                    <ul id="img">
+                        <li>
+                            <a href="https://www.linkedin.com/in/avinash7467" class="social-icon" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" id="img" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/naruto_uzumaki_7467?igsh=MXdxcjRwaml0aG10cQ=="
+                                class="social-icon" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" id="img" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:avinashthangaraju7467@gmail.com" class="social-icon" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968534.png" id="img" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Alonewolf7467" class="social-icon" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" id="img" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://t.me/Avinash7467" class="social-icon" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536661.png" id="img"
+                                    alt="Telegram Icon" />
+                            </a>
+                        </li>
+                    </ul>
+                    <center>
+                        <div class="contact-list">
+                            <div class="card">
+                                <div class="contact-item">
+                                    <i class="fas fa-phone-alt"></i> <b> Phone : +91-8919860292</b>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="contact-item">
+                                    <i class="fab fa-whatsapp"></i> <b> WhatsApp : +91-8919860292</b>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="contact-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <b>Location : Chittoor, AP</b>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="contact-item">
+                                    <i class="fas fa-birthday-cake"></i> <b>DOB : 01/04/2002</b>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://drive.google.com/file/d/1A9O-AXBL0OE2K54L5b7dJvyN5b2_hOtg/view?usp=sharing"
+                            target="_blank" style="text-decoration-line: none;">
+                            <button class="btn" onclick="downloadcv()">DOWNLOAD CV</button>
+                        </a>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#projects" onclick="showSection('projects')">Projects</a></li>
+                <li><a href="#internships" onclick="showSection('internships')">Internships</a></li>
+                <li><a href="#about" onclick="showSection('about')">Connect Me</a></li>
+
+            </ul>
+            <button id="theme-toggle" class="btn">Dark Mode</button>
+        </nav>
+
+        <main>
+            <div class="section" id="home">
+                <h1 style="color:rgb(175, 14, 255)">Hello, It's me <h1> T Avinash</h1>
+                </h1>
+                <div class="typewriter-card">
+                    <p class="typewriter-text">
+                        <strong><span style="color:rgb(175, 14, 255);font-size: large;">and I Am a<strong class="name">
+                                </strong></span><br><br>
+                            <h4>
+                                A passionate and driven Full Stack Developer with a solid foundation in computer science
+                                &
+                                expertise in software Engg, <br>application development, and programming
+                                paradigms.
+                                <br><br>Proficient in Python, C, and Java, I excel in object-oriented programming and
+                                algorithm
+                                design. <br> <br> My skills encompass web technologies such as HTML5, CSS3, Bootstrap,
+                                React.js,
+                                and Node.js, <br> I create responsive and scalable web applications.
+                                <br> <br>
+                                Additionally, I possess expertise in database management with PostgreSQL and cloud
+                                computing
+                                platforms. <br><br> My proficiency extends to Linux and Windows environments, ensuring
+                                seamless
+                                cross-platform development.
+                            </h4>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="section" id="skills" style="display:none;">
+                <h2>Skills</h2>
+                <div class="grid-container">
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">HTML5</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">CSS3</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">Bootstrap</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">JavaScript</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">React</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">Node.js</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">Python</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">C</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">SQL</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">PHP</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">MERN Stack</div>
+                        </div>
+                    </div>
+
+                    <div class="car">
+                        <div class="card-content">
+                            <div class="card-title">Linux</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="projects" style="display:none;">
+                <h2>Projects</h2>
+                <div class="grid-containers">
+                    <div class="cad">
+                        <div class="card-content">
+                            <div class="card-title">Login Form</div>
+                            <p>(HTML, CSS, Bootstrap, JavaScript)</p>
+
+                            <p style="color:rgb(175, 14, 255);font-size: large;">Basic Level</p>
+                        </div>
+                    </div>
+
+                    <div class="cad">
+                        <div class="card-content">
+                            <div class="card-title">Weather App</div>
+                            <p>(HTML, CSS, Bootstrap, JavaScript)</p>
+                            <p style="color:rgb(175, 14, 255);font-size: large;">Basic Level</p>
+
+                        </div>
+                    </div>
+
+                    <div class="cad">
+                        <div class="card-content">
+                            <div class="card-title">Portfolio</div>
+                            <p>(HTML, CSS, Bootstrap, JavaScript)</p>
+                            <p style="color:rgb(175, 14, 255);font-size: large;">Basic Level</p>
+
+                        </div>
+                    </div>
+
+                    <div class="cad">
+                        <div class="card-content">
+                            <div class="card-title">Student LMS</div>
+                            <p>(MERN Stack)</p>
+                            <p style="color:rgb(175, 14, 255);font-size: large;">Hard level</p>
+
+                        </div>
+                    </div>
+
+                    <div class="cad"">
+                        <div class=" card-content">
+                        <div class="card-title">Detection of Cyber Attacks</div>
+                        <p>(Python Packages)</p>
+                        <p style="color:rgb(175, 14, 255);font-size: large;">Hard Level</p>
+
+                    </div>
+                </div>
+                <div class="cad">
+                    <div class="card-content">
+                        <div class="card-title">E-Commerce</div>
+                        <p>Mern Stack</p>
+                        <p style="color:rgb(175, 14, 255);font-size: large;">Hard Level</p>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="section" id="internships" style="display:none;">
+        <div class="card">
+            <h2>Internships</h2>
+            <div class="internship"">
+                <p><strong><b style=" color: rgb(255, 0, 0);">[ ShortTerm -Intern ]</b></strong> Completed Three-Month
+                Internships on Front-End & Back-End Web Development at 1Stop.ai.</p>
+                <p>Web Development Back-end for the period 12th May, 2023 to 12th Jul, 2023</p>
+                <a href='https://1drv.ms/b/c/80aaa12a4278341e/EVJTyp8iTXFIl0k8umHGS3QBIiPtOQFKzLwbaH6h_nh_fA'
+                    target="_blank"> <input class=" btn" type='button' value='Open Certify' /></a>
+            </div>
+            <div class="internship">
+                <p><strong> <b style="color: rgb(255, 0, 0);">[ LongTerm-Intern ] </b></strong>Completed Three months
+                    Internships on full stack developer [Mern stack developer] at IIDT.</p>
+                <p>Web Development Back-end for the period 12th May, 2023 to 12th Jul, 2023</p>
+                <a href='https://drive.google.com/file/d/1BqGOtLvJ-i3J2rBp50H8R_yYBQcskJ-x/view?usp=drivesdk'
+                    target="_blank"> <input class="btn" type='button' value='Open Certify' /></a>
+            </div>
+        </div>
+    </div>
+    <center>
+        <div id="about" class="section" style="display: none;">
+            <h2>Have a Query ? try to Connect Me ..!</h2>
+            <div class="carry">
+                <form action="submit_form.php" method="post" style="text-align: left;">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required />
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required />
+                    <label for="phone">Phone No:</label>
+                    <input type="number" id="phone" name="phone" required />
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/Alonewolf7467" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/avinash7467" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://wa.me/+918919860292" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/naruto_uzumaki_7467?igsh=MXdxcjRwaml0aG10cQ==" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="http://t.me/Avinash7467" target="_blank"><i class="fab fa-telegram"></i></a>
+            </div>
+        </div>
+    </center>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
